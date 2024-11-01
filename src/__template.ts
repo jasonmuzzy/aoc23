@@ -1,5 +1,4 @@
 import { run } from 'aoc-copilot';
-// import * as utils from './utils';
 
 async function solve(inputs: string[], part: number, test: boolean, additionalInfo?: { [key: string]: string }): Promise<number | string> {
     let answer: number | string = 0;
@@ -7,36 +6,4 @@ async function solve(inputs: string[], part: number, test: boolean, additionalIn
     return answer;
 }
 
-run(__filename, solve, {
-    testsOnly: false, // Only run the examples (true) or run both examples and inputs (false) (default)
-    skipTests: false, // Skip the examples (true) or run the examples (false) (default)
-    // onlyPart: 1, // Run only part 1 or 2
-}); //, {
-//     "reason": "No tests",
-//     "part1length": 0,
-//     "inputs": {
-//         "selector": "code",
-//         "indexes": []
-//     },
-//     "answers": {
-//         "selector": "code",
-//         "indexesOrLiterals": []
-//     // },
-//     // "additionalInfos": {
-//     //     "key": "steps",
-//     //     "selector": "code, em",
-//     //     "indexes": [],
-//     //     "transforms": [{
-//     //     "functions": [
-//     //             { "split": ["\n"] },
-//     //             { "at": [-2] },
-//     //             { "match": ["(?<=Result: ).*", ""] },
-//     //             { "at": [0] }
-//     //         ], "appliesTo": [0, 1, 2, 3]
-//     //     }]
-//     }
-// }); //, [{
-//     part: 1,
-//     inputs: ['Test case input'],
-//     answer: 'Expected answer'
-// }]);
+run(__filename, solve, true);
