@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/jasonmuzzy/aoc23#readme",
   "devDependencies": {
-    "@types/node": "^20.14.9",
+    "@types/node": "^22.9.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "aoc-copilot": "^1.5.1"
+    "aoc-copilot": "^1.5.2"
   }
 }
